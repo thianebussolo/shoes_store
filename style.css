@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: white;
+    box-shadow: 0px 1px 20px rgba(139, 139, 139, 139);
+
+    
+
+}
+
+nav {
+    max-width: 1277px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 39px 9px 19px;
+}
+
+.nav-links {
+    display: flex;
+    
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+}
